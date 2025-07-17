@@ -82,6 +82,8 @@ print(f"Corrected item_3 stock: {inventory[2]["item_3"]["stock"]}")
 del inventory[4]
 print(f"{inventory}") #no item_5
 
+
+#calculating stock value
 total_stock_value = 0
 for cars in inventory:
     items = list(cars.values())[0]
